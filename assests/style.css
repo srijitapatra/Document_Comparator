@@ -1,0 +1,77 @@
+body {
+    font-family: Calibri, Roboto, Arial !important;
+}
+
+#pdf-and-cytoscape-container {
+    display: table;
+    width: 100%;
+}
+
+#pdf-viewer {
+    display: table-cell;
+}
+
+#cytoscape-container {
+    display: table-cell;
+}
+
+#pdf-viewer {
+    display: table-cell;
+    position: relative;
+    width: 30%;
+}
+
+.controls-container {
+    margin-top: 10px;
+    display: table;
+    width: 100%;
+}
+
+#dropdown-documents {
+    width: 50%;
+    display: table-cell;
+}
+
+.button {
+    width: 20%;
+    display: table-cell;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #53adff;
+    height: 38px;
+    border-color: darkgray;
+    border-style: solid;
+}
+
+#slider-similarity {
+    width: 30%;
+    display: table-cell;
+}
+
+#slider-value {
+    font-size: 20px;
+    font-weight: bold;
+    display: table-cell;
+    width: 50px;
+}
+
+#pdf-viewer-frame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.label {
+    display: table-cell;
+    font-size: 20px;
+    width: 8%;
+}
+
+#dropdown-view {
+    display: table-cell;
+    width: 10%;
+}
+
+#label-slider {
+    padding-left: 10px;
+}
